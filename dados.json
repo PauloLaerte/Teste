@@ -1,0 +1,14 @@
+[
+  {
+    "chave": "valor1",
+    "valor": 42
+  },
+  {
+    "chave": "valor2",
+    "valor": 3.14
+  },
+  {
+    "chave": "valor3",
+    "valor": "Olá, mundo!"
+  }
+]

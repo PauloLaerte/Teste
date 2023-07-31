@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Página</title>
+</head>
+<body>
+<h1>Exemplo de coleta de dados de um arquivo JSON</h1>
+    <script>
+        // Faz a requisição fetch para obter os dados do arquivo JSON
+        fetch('dados.json')
+          .then(response => response.json())
+          .then(data => {
+            // Aqui você pode manipular os dados como quiser
+            console.log(data);
+          })
+          .catch(error => {
+            console.error('Erro ao carregar o arquivo JSON:', error);
+          });
+    </script>
+</body>
+</html>
